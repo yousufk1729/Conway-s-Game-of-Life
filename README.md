@@ -22,7 +22,7 @@ Sometimes I only have access to an ISO-646-compliant keyboard, which made it har
 Unfortunately, the pesky compiler kept telling me I had errors. I asked ChatGCC what to do to make it stop talking about my errors because it made me sad, so it gave me some flags to compile and run the code with for my x86-64 gcc 15.2 compiler:
 
 ```gcc
-gcc -std=gnu17 -Wno-implicit-function-declaration -Wno-implicit-int -Wno-int-conversion -Wno-builtin-declaration-mismatch -trigraphs main.c -o main`
+gcc -std=gnu17 -Wno-implicit-function-declaration -Wno-implicit-int -Wno-int-conversion -Wno-builtin-declaration-mismatch -trigraphs main.c -o main
 ```
 
 At last! My beautiful glider, complete with grid wrapping, takes off beautifully in flight. Run it yourself to see as well! I am well on my way to becoming a C expert! Let me know if it works on your machine as well!!!
